@@ -15,6 +15,9 @@
 		6F3982E116A4DFB600301CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3982E016A4DFB600301CF7 /* AppDelegate.m */; };
 		6F3982E416A4DFB600301CF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3982E216A4DFB600301CF7 /* MainStoryboard.storyboard */; };
 		6F3982E716A4DFB600301CF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3982E616A4DFB600301CF7 /* ViewController.m */; };
+		6F3982EE16A4DFC100301CF7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3982ED16A4DFC100301CF7 /* ImageIO.framework */; };
+		6F3982F216A4E04200301CF7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3982F116A4E04200301CF7 /* CFNetwork.framework */; };
+		6F3982FF16A4E18300301CF7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3982FE16A4E18300301CF7 /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		6F3982D016A4DFB600301CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F3982D216A4DFB600301CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F3982D416A4DFB600301CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F3982D816A4DFB600301CF7 /* Te3-Info.plist */ = {isa = PBXFileReference; path = "Te3-Info.plist"; sourceTree = "<group>"; };
+		6F3982D816A4DFB600301CF7 /* Te3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Te3-Info.plist"; sourceTree = "<group>"; };
 		6F3982DA16A4DFB600301CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F3982DC16A4DFB600301CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F3982DE16A4DFB600301CF7 /* Te3-Prefix.pch */ = {isa = PBXFileReference; path = "Te3-Prefix.pch"; sourceTree = "<group>"; };
-		6F3982DF16A4DFB600301CF7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F3982DE16A4DFB600301CF7 /* Te3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Te3-Prefix.pch"; sourceTree = "<group>"; };
+		6F3982DF16A4DFB600301CF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F3982E016A4DFB600301CF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F3982E316A4DFB600301CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6F3982E516A4DFB600301CF7 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6F3982E516A4DFB600301CF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F3982E616A4DFB600301CF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F3982ED16A4DFC100301CF7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6F3982F116A4E04200301CF7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6F3982FE16A4E18300301CF7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +44,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3982F216A4E04200301CF7 /* CFNetwork.framework in Frameworks */,
+				6F3982EE16A4DFC100301CF7 /* ImageIO.framework in Frameworks */,
 				6F3982D116A4DFB600301CF7 /* UIKit.framework in Frameworks */,
 				6F3982D316A4DFB600301CF7 /* Foundation.framework in Frameworks */,
 				6F3982D516A4DFB600301CF7 /* CoreGraphics.framework in Frameworks */,
+				6F3982FF16A4E18300301CF7 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,9 @@
 		6F3982CF16A4DFB600301CF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F3982FE16A4E18300301CF7 /* SDWebImage.framework */,
+				6F3982F116A4E04200301CF7 /* CFNetwork.framework */,
+				6F3982ED16A4DFC100301CF7 /* ImageIO.framework */,
 				6F3982D016A4DFB600301CF7 /* UIKit.framework */,
 				6F3982D216A4DFB600301CF7 /* Foundation.framework */,
 				6F3982D416A4DFB600301CF7 /* CoreGraphics.framework */,
@@ -236,9 +248,16 @@
 		6F3982EB16A4DFB600301CF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/../Te2/Te2\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Te3/Te3-Prefix.pch";
 				INFOPLIST_FILE = "Te3/Te3-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -247,9 +266,16 @@
 		6F3982EC16A4DFB600301CF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/../Te2/Te2\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Te3/Te3-Prefix.pch";
 				INFOPLIST_FILE = "Te3/Te3-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
